@@ -1,0 +1,16 @@
+
+
+##### ----- Twitter Bot Verification ----- #####
+
+Pour dissocier les commentaires des réponses:
+
+-> Voir div[data-testid = Tweet-User-Avatar]
+
+Si il y a une balise voisine (correspond au trait vertical de la réponse), alors le message suivant est une réponse
+
+
+
+
+2nd command
+pump.fun automatisation commentaire
+
