@@ -189,11 +189,11 @@ async def add_influ_name(message: Message, state: FSMContext):
     print(data)    
     
 
-    resume = f"New influencer\n\n\
+    resume = f"""New influencer\n\n\
 *X username:* {data["x_name"]}\n\
 *Tm username:* {data["tm_name"]}\n\
 *Price:* {data["price"]}\n\
-*Wallet:* {data["wallet"]}"  
+*Wallet:* {data["wallet"]}"""  
     
     mk_b = InlineKeyboardBuilder()
    
