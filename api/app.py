@@ -26,6 +26,9 @@ message = """
 
 """
 
+@app.route("/", methods=['GET'])
+def hello():
+    return "Hello World!"
 
 @app.route("/influfun", methods=['GET', 'POST'])
 async def hello_world():
