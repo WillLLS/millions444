@@ -1,3 +1,17 @@
 .venv
 pumpfun
 database/__pycache__
+certificate_fullchain.pem
+_.potatoland.fr_private_key.key
+_.potatoland.fr_ssl_certificate_INTERMEDIATE.cer
+potatoland.fr_ssl_certificate.cer
+google-chrome-stable_current_amd64.deb
+journal
+
+test*
+
+utils/__pycache__
+telegram_bot/__pycache__
+database/__pycache__
+config/__pycache__
+api/__pycache__
